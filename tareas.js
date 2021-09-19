@@ -7,7 +7,7 @@ let archivoTareas = {
     },
     
     escribirJSON : function (tarea) {
-        const tareas=JSON.stringifygi(tarea,null,4)
+        const tareas=JSON.stringify(tarea,null,4)
         fs.writeFile.push=('./tareas.json',tareas)    
         console.log(tareas)
         console.log("guardado")
